@@ -1,0 +1,6 @@
+System Design:
+The project follows a multi-tier architecture:
+- **IMS.Infrastructure:** Contains infrastructure-related classes and services.
+- **IMS.Models:** Defines the data models used in the application.
+- **IMS.Utility:** Contains utility classes and helpers.
+- **IMS.Web:** Contains the main web application, including Models, Views, and Controllers.
