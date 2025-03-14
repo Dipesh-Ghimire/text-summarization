@@ -41,7 +41,7 @@ class ConfigurationManager:
     
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config=self.config.model_trainer
-        params=self.params.TrainingArguments
+        params=self.paramss.TrainingArguments
 
         create_directories([config.root_dir])
 
@@ -54,8 +54,8 @@ class ConfigurationManager:
             per_device_train_batch_size = params.per_device_train_batch_size,
             weight_decay = params.weight_decay,
             logging_steps = params.logging_steps,
-            evaluation_strategy = params.evaluation_strategy,
-            eval_steps = params.evaluation_strategy,
+            eval_strategy = params.eval_strategy,
+            eval_steps = params.eval_strategy,
             save_steps = params.save_steps,
             gradient_accumulation_steps = params.gradient_accumulation_steps
         )

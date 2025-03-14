@@ -1,4 +1,5 @@
-# TextSummarizer USing Huggingface
+# TextSummarizer Using Huggingface
+![Screenshot](research/text_summarization.png)
 
 ### Workflows 
 
